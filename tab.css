@@ -13,3 +13,62 @@ input {
     transition: 0.5s;
     outline: none;
 }
+table {
+    display: flexbox;
+}
+#backToIndex {
+    
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background: #fff;
+    display: inline-block;
+    margin: 10px 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+#owner {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background: #fff;
+    display: inline-block;
+    margin: 10px 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 10px;
+    display: none;
+    overflow: hidden;
+    /* background-color: #f1f1f1; */
+  }

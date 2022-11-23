@@ -1,8 +1,5 @@
-<!-- Write an HTML code to display your education details in a tabular format. -->
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +7,10 @@
     <title>Education details</title>
     <link rel="stylesheet" href="tab.css">
 </head>
-
 <body>
     <h1>Education details</h1>
-    <!-- //bottom margin -->
     <table id="edutable" style="margin:10px" border="1">
+        
         <tr>
             <th>Qualification</th>
             <th>Board</th>
@@ -27,19 +23,20 @@
             <td>92</td>
             <td>2018</td>
         </tr>
+        
     </table>
-    <!-- add margin -->
-    <!-- <form id="data-form" style="margin:10px" action=""> -->
-        <fieldset>
-            <legend>Add education details</legend>
-            <label>Qualification</label> <input type="text" id="qualification" placeholder="Class/Degree"> <br>
-            <label>Board</label> <input type="text" id="board"> <br>
-            <label>Marks</label> <input type="number" id="percentage" placeholder="Percentage"> <br>
-            <label>Year of passing</label> <input type="number" id="year" placeholder="YYYY" "> <br>
-            <input type="submit" id="submit-btn" style="width:30%; background:greenyellow;" align="middle" value="Submit" >
-        </fieldset>
-    <!-- </form> -->
-</body>
-<script type="text/javascript" src="as1.js"></script>
+    <fieldset>
+        <legend>Add education details</legend>
+        <label>Qualification</label> <input type="text" id="qualification" placeholder="Class/Degree"> <br>
+        <label>Board</label> <input type="text" id="board"> <br>
+        <label>Marks</label> <input type="number" id="percentage" placeholder="Percentage"> <br>
+        <label>Year of passing</label> <input type="number" id="year" placeholder="YYYY" "> <br>
+        <input type=" submit" id="submit-btn" style="width:30%; background:greenyellow;" align="middle"
+        value="Submit">
+    </fieldset>
 
+    <a id="backToIndex" href="index.htm" style="margin:10px">Back to index</a>
+
+    <script type="text/javascript" src="as1.js"></script>
+</body>
 </html>

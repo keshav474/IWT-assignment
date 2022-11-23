@@ -1,0 +1,26 @@
+<!-- Write an HTML code to create a Registration Form. On submitting the form, the user should be asked to login with this new credentials. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tab.css">
+    <script type="text/javascript" src="as2.js"></script>
+</head>
+<body>
+    <h1>Registraion form</h1>
+    <form onsubmit="return setdata(event)">
+        <fieldset>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Enter your username" required>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" required>
+            <br>
+            <input type="submit" value="Login" style="background:greenyellow;border:1px solid">
+        </fieldset>
+    </form>    
+</body>
+</html>
